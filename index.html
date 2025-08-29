@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!-- Metadatos básicos -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>YuyoBox • Mis Películas y series Favoritas</title>
+    <meta name="description" content="Landing page de hobby sobre películas y series: top 5, recomendaciones y galería responsive. Construida con HTML5 semántico, accesible y lista para GitHub Pages." />
+
+    <!-- Estándares & Buenas prácticas -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="color-scheme" content="light dark" />
+    <link rel="icon" href="https://fav.farm/🎬" />
+
+    <!-- OpenGraph para compartir -->
+    <meta property="og:title" content="YuyoBox • Mis Películas y series Favoritas" />
+    <meta property="og:description" content="Top 5 de películas y series + galería." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="img/inicio.jpg" />
+
+    <!-- CSS externo -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a href="#contenido" class="skip-link">Saltar al contenido principal</a>
+
+<header role="banner">
+    <div class="container nav">
+        <div class="brand" aria-label="Inicio">
+            <span class="logo" aria-hidden="true">🎬</span>
+            <span>YuyoBox</span>
+        </div>
+        <nav aria-label="Principal">
+            <ul>
+                <li><a href="#top5">Top 5 Películas</a></li>
+                <li><a href="#topSeries">Top 5 Series</a></li>
+                <li><a href="#galeria">Galería</a></li>
+            </ul>
+        </nav>
+        <button id="themeToggle" class="theme-toggle" aria-pressed="false" aria-label="Cambiar tema">🌗 Tema</button>
+    </div>
+</header>
+
+<main id="contenido" class="container">
+    <section class="hero" aria-labelledby="hero-title">
+        <div>
+            <p class="kicker">Mi hobby</p>
+            <h1 id="hero-title">Películas y series que me inspiran</h1>
+            <p class="muted">Selección personal de pelis y series que me marcaron, recomendaciones rápidas y una galería mixta. 100% estática y accesible.</p>
+            <a class="cta" href="#top5">Ver Top 5</a>
+        </div>
+        <div class="poster" aria-hidden="true">
+            <img loading="lazy" alt="Rollos de película sobre fondo oscuro" src="img/inicio.jpg" />
+        </div>
+    </section>
+
+    <!-- Top 5 Películas -->
+    <section id="top5" class="section" aria-labelledby="top5-title">
+        <h2 id="top5-title">Top 5 Películas</h2>
+        <p class="muted">Mis peliculas favoritas según mi opinión personal 😉</p>
+        <div class="cards" role="list">
+            <!-- Tarjetas de películas -->
+            <article class="card" role="listitem">
+                <picture>
+                    <img loading="lazy" alt="Cars" src="img/pelicula1.jpeg" />
+                </picture>
+                <div class="card-content">
+                    <div class="title">Cars</div>
+                    <div class="meta"><span>2006 · Aventura</span></div>
+                    <p>La mejor pelicula de animación de los 2000s.</p>
+                </div>
+                <a class="btn" href="https://www.youtube.com/watch?v=1sD4qkCymtI" target="_blank">
+                    Ver tráiler
+                </a>
+            </article>
+            <article class="card" role="listitem">
+                <picture>
+                    <img loading="lazy" alt="Star wars 3" src="img/pelicula2.jpg" />
+                </picture>
+                <div class="card-content">
+                    <div class="title">Star Wars: Episode III - Revenge of the sith</div>
+                    <div class="meta"><span>2005 · Ciencia Ficción</span></div>
+                    <p>El cierre más epico de la Ciencia ficción.</p>
+                </div>
+                <a class="btn" href="https://www.youtube.com/watch?v=5UnjrG_N8hU" target="_blank">
+                    Ver tráiler
+                </a>
+            </article>
+            <article class="card" role="listitem">
+                <picture>
+                    <img loading="lazy" alt="Lego movie" src="img/pelicula3.jpg" />
+                </picture>
+                <div class="card-content">
+                    <div class="title">The Lego Movie</div>
+                    <div class="meta"><span>2014 · Animación</span></div>
+                    <p>La mejor pelicula de animación de los 2010s.</p>
+                </div>
+                <a class="btn" href="https://www.youtube.com/watch?v=fZ_JOBCLF-I" target="_blank">
+                    Ver tráiler
+                </a>
+            </article>
+            <article class="card" role="listitem">
+                <picture>
+                    <img loading="lazy" alt="Interestellar" src="img/peli4.jpg" />
+                </picture>
+                <div class="card-content">
+                    <div class="title">Interestellar</div>
+                    <div class="meta"><span>2014 · Ciencia Ficción</span></div>
+                    <p>Nolan hizo una obra maestra, después no pero al final si.</p>
+                </div>
+                <a class="btn" href="https://www.youtube.com/watch?v=zSWdZVtXT7E" target="_blank">
+                    Ver tráiler
+                </a>
+            </article>
+            <article class="card" role="listitem">
+                <picture>
+                    <img loading="lazy" alt="Dune 2" src="img/peli5.jpg" />
+                </picture>
+                <div class="card-content">
+                    <div class="title">Dune 2</div>
+                    <div class="meta"><span>2024 · Ciencia Ficción</span></div>
+                    <p>2025 y ninguna peliucla ha superado a Dune 2, Villanueve masterpiece.</p>
+                </div>
+                <a class="btn" href="https://www.youtube.com/watch?v=Way9Dexny3w" target="_blank">
+                    Ver tráiler
+                </a>
+            </article>
+        </div>
+    </section>
+
+    <!-- Top 5 Series -->
+    <section id="topSeries" class="section" aria-labelledby="topSeries-title">
+        <h2 id="topSeries-title">Top 5 Series</h2>
+        <p class="muted">Maratones que no puedo soltar 🍿</p>
+        <div class="cards" role="list">
+            <!-- Tarjetas de series -->
+            <article class="card" role="listitem">
+                <picture>
+                    <img loading="lazy" alt="Flash" src="img/serie1.jpg" />
+                </picture>
+                <div class="card-content">
+                    <div class="title">The Flash</div>
+                    <div class="meta"><span>2014 · Sci-Fi</span></div>
+                    <p>Solo las primeras 3 temporadas.</p>
+                </div>
+                <a class="btn" href="#">Ver tráiler</a>
+            </article>
+            <article class="card" role="listitem">
+                <picture>
+                    <img loading="lazy" alt="westworld" src="img/serie2.jpg" />
+                </picture>
+                <div class="card-content">
+                    <div class="title">Westworld</div>
+                    <div class="meta"><span>2016 · Sci-Fi</span></div>
+                    <p>De las mejores series de HBO.</p>
+                </div>
+                <a class="btn" href="#">Ver tráiler</a>
+            </article>
+            <article class="card" role="listitem">
+                <picture>
+                    <img loading="lazy" alt="GOT" src="img/serie3.jpg" />
+                </picture>
+                <div class="card-content">
+                    <div class="title">Game Of Thrones</div>
+                    <div class="meta"><span>2011 · Drama</span></div>
+                    <p>Iconica.</p>
+                </div>
+                <a class="btn" href="#">Ver tráiler</a>
+            </article>
+            <article class="card" role="listitem">
+                <picture>
+                    <img loading="lazy" alt="Equipo celebrando" src="https://picsum.photos/seed/serie4/600/800" />
+                </picture>
+                <div class="card-content">
+                    <div class="title">Liga Improbable</div>
+                    <div class="meta"><span>2017 · Comedia deportiva</span></div>
+                    <p>Humor y corazón en un club al borde del descenso.</p>
+                </div>
+                <a class="btn" href="#">Ver tráiler</a>
+            </article>
+            <article class="card" role="listitem">
+                <picture>
+                    <img loading="lazy" alt="Castillo y luna" src="https://picsum.photos/seed/serie5/600/800" />
+                </picture>
+                <div class="card-content">
+                    <div class="title">Sombra y Reino</div>
+                    <div class="meta"><span>2019 · Fantasía</span></div>
+                    <p>Mundos en guerra, magia antigua y alianzas frágiles.</p>
+                </div>
+                <a class="btn" href="#">Ver tráiler</a>
+            </article>
+        </div>
+    </section>
+
+    <!-- Galería -->
+    <section id="galeria" class="section" aria-labelledby="galeria-title">
+        <h2 id="galeria-title">Galería</h2>
+        <div class="filters" role="toolbar" aria-label="Filtros de tipo y género">
+            <button class="chip" data-filter="all" aria-pressed="true">Todo</button>
+            <button class="chip" data-filter="pelicula">Película</button>
+            <button class="chip" data-filter="serie">Serie</button>
+            <button class="chip" data-filter="drama">Drama</button>
+            <button class="chip" data-filter="aventura">Aventura</button>
+            <button class="chip" data-filter="thriller">Thriller</button>
+            <button class="chip" data-filter="romance">Romance</button>
+            <button class="chip" data-filter="scifi">Sci-Fi</button>
+        </div>
+        <div class="gallery" id="grid">
+            <!-- Películas -->
+            <figure data-tags="pelicula drama"><img loading="lazy" alt="Escena urbana nocturna" src="https://picsum.photos/seed/drama1/800/500" /><figcaption>Ciudad eterna · Drama (Película)</figcaption></figure>
+            <figure data-tags="pelicula aventura"><img loading="lazy" alt="Océano azul con velero" src="https://picsum.photos/seed/aventura1/800/500" /><figcaption>Horizonte Azul · Aventura (Película)</figcaption></figure>
+            <figure data-tags="pelicula thriller"><img loading="lazy" alt="Bosque nevado" src="https://picsum.photos/seed/thriller1/800/500" /><figcaption>Eco de Invierno · Thriller (Película)</figcaption></figure>
+            <figure data-tags="pelicula romance"><img loading="lazy" alt="Atardecer en la playa" src="https://picsum.photos/seed/romance1/800/500" /><figcaption>Luz de Agosto · Romance (Película)</figcaption></figure>
+            <figure data-tags="pelicula scifi"><img loading="lazy" alt="Ciudad futurista con neón" src="https://picsum.photos/seed/scifi1/800/500" /><figcaption>Noche Eléctrica · Sci-Fi (Película)</figcaption></figure>
+            <!-- Series -->
+            <figure data-tags="serie scifi"><img loading="lazy" alt="Calle con letreros de neón" src="https://picsum.photos/seed/scifi_series/800/500" /><figcaption>Distrito 2049 · Sci-Fi (Serie)</figcaption></figure>
+            <figure data-tags="serie thriller"><img loading="lazy" alt="Cuarto oscuro con tablero" src="https://picsum.photos/seed/thriller_series/800/500" /><figcaption>Verdad Oculta · Thriller (Serie)</figcaption></figure>
+            <figure data-tags="serie drama"><img loading="lazy" alt="Sala hogareña" src="https://picsum.photos/seed/drama_series/800/500" /><figcaption>Casa en Movimiento · Drama (Serie)</figcaption></figure>
+        </div>
+    </section>
+
+
+</main>
+
+<footer role="contentinfo">
+    <div class="container">
+        <small>© <span id="year"></span> PantallaFan • Hecho con HTML5 y amor por la pantalla.</small>
+    </div>
+</footer>
+
+<!-- JS externo -->
+<script src="script.js"></script>
+</body>
+</html>
