@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8c9e8da-dff9-4b23-bf24-c8fb4e4cb230" name="Changes" comment="" />
+    <list default="true" id="c8c9e8da-dff9-4b23-bf24-c8fb4e4cb230" name="Changes" comment="Series Trailer" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,10 +19,26 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "yuyo272003"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/yuyo272003/yuyobox.git",
+    "accountId": "dd25f909-bd25-4a62-8a98-072a2e20a913"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
   <component name="ProjectId" id="31tUMIsMrnBQdb1Ll1ez8YNBfzD" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -32,7 +48,8 @@
     "DefaultHtmlFileTemplate": "HTML File",
     "JavaScript Debug.index.html.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/julio/Documents/pern-tasks",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/julio/WebstormProjects/Actividad01",
     "list.type.of.created.stylesheet": "CSS",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -59,10 +76,42 @@
       <updated>1756342813432</updated>
       <workItem from="1756342814306" duration="222000" />
       <workItem from="1756343045667" duration="4495000" />
+      <workItem from="1756432019712" duration="2714000" />
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1756432406592</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1756432406592</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Series">
+      <option name="closed" value="true" />
+      <created>1756433081178</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1756433081178</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Series Trailer">
+      <option name="closed" value="true" />
+      <created>1756433483269</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1756433483269</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <MESSAGE value="Series" />
+    <MESSAGE value="Series Trailer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Series Trailer" />
   </component>
 </project>
